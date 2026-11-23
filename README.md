@@ -7,11 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-[![ru](https://img.shields.io/badge/lang-ru-green.svg)]()
 
 ## About project
 
-This is a semester project that I did in spring of 2026. The project is a music shop with complete functionality such as: 
+[![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/joyrexj4/laravel/blob/main/README.ru.md)
+
+This is a semester project that I did in spring of 2026. It's written in PHP and Laravel. The project is a music shop with complete functionality such as: 
 - user authorization
 - viewing products from database
 - user cart
