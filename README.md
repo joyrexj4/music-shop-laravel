@@ -19,6 +19,7 @@ This is a semester project that I did in spring of 2026. The project is a music 
 
 <img width="1689" height="1385" alt="image" src="https://github.com/user-attachments/assets/2f6e5c89-7ed3-4c0c-b2dd-7b6c2d504cff" />
 
+
 <img width="1689" height="1012" alt="image" src="https://github.com/user-attachments/assets/a49421bb-23aa-4d92-a58a-9fbbc437823e" />
 
 ## License
