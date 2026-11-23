@@ -1,0 +1,152 @@
+.container {
+    padding-top: 70px;
+}
+
+.admin-container {
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+    margin-bottom: 30px;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th {
+    text-align: center;
+}
+.admin-table td {
+    padding: 5px 15px;
+    border-top: 1px solid #A0A0A0;
+    border-bottom: 1px solid #A0A0A0;
+    border-right: 1px solid #A0A0A0;
+
+    text-align: center;
+}
+
+.admin-table td:last-child {
+    padding: 5px 10px;
+    border-right: none;
+}
+
+.admin-table td.actions-cell {
+    padding: 8px 5px;
+}
+
+.actions {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-find {
+    background-color: #FF7605;
+    color: white;
+}
+
+.btn-find:hover{
+    background-color: #e06500;
+}
+
+.btn-edit {
+    background-color: #33a9ee;
+    color: white;
+}
+.btn-edit:hover {
+    background-color: #1f7cb3;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-delete, .btn-ban {
+    background-color: #ff2424;
+    color: white;
+}
+
+.btn-delete:hover, .btn-ban:hover {
+    background-color: #b81717;
+}
+
+.btn-edit {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.product-thumb {
+    width: 50px;
+}
+
+.search-bar input {
+    width: 205px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-group label {
+    margin-bottom: 0;
+}
+
+.btn-restore {
+    background-color: #f39c12;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-restore:hover {
+    background-color: #e67e22;
+}
+
+.btn-force-delete {
+    background-color: #df3825;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-force-delete:hover{
+    background-color: #a93226;
+}
+
+.controls-container {
+    display: flex;
+    gap: 30px;
+}

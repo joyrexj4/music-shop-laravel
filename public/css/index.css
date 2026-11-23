@@ -1,0 +1,126 @@
+body {
+    padding-top: 30px;
+}
+
+.parallax {
+    background-image: url("../images/main_bg.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-header h1, .products-header h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    width: 100%;
+    max-width: 100%;
+}
+
+.product-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #EBEBEB;
+}
+
+.product-card-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px;
+}
+
+.product-image-background {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    padding: 10px;
+}
+
+.product-image {
+    display: block;
+    max-width: 100%;
+    max-height: 150px;
+    width: auto;
+    height: auto; 
+    object-fit: contain;
+}
+
+.product-title {
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.product-button {
+    margin-top: auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #FF7605;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.product-button:hover {
+    background-color: #e06500;
+}
+
+.product-button-unavailable {
+    margin-top: auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #FF9090;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.product-link:hover {
+    color: #ff4b4b;
+    text-decoration: none;
+}

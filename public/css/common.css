@@ -1,0 +1,41 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar-form {
+    padding: 0;
+}
+
+.navbar-form .input-group {
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    height: 150px;
+    background-color: #4B4B4B;
+    align-items: center;
+    color: white;
+}
+
+.footer-container p {
+    margin-left: 25px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer-container {
+    margin-top: auto;
+}
+
+.footer-container a {
+    color: #27ADF5;
+}
